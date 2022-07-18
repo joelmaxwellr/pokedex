@@ -11,8 +11,8 @@ let card2 = document.getElementById('card2')
 let cardNew = document.getElementById('cardNew')
 let cardNew2 = document.getElementById('cardNew')
 const body = document.body
-//card.remove()
-//card2.remove()
+card.remove()
+card2.remove()
 
 function fetchPokemons(name) {
   console.log(name)
