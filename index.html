@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container" style="max-width: 940px; margin-top: 7%;">
+      <img src="International_Pokémon_logo.svg.webp" width="35%" style="display: flex; margin: auto ;" alt="" srcset="">
+      <h1>Pokedex</h1>
+      <!-- barra de busquedas   -->
+      <div class="input-group mb-3">
+        <input
+          id="inputBusqueda"
+          type="text"
+          class="form-control"
+          placeholder="Buscar Pokemon..."
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          id="buscar"
+          class="btn btn-outline-secondary"
+          onclick="buscar(inputBusqueda.value)"
+          type="button"
+          id="button-addon2">
+          Buscar
+        </button>
+      </div>
+
+<div class=>
+  <div id="cardNew2" class="col">
+
+  </div>
+  <div id="cardNew"class="col">
+  
+</div>
+ </div>
+
+      <!-- card -->
+     
+             <!-- card-1 -->
+             <!-- style="max-width: 540px;" -->
+      <div  class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              id="foto"
+              src="#"
+              width="200px"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 id="nombre" class="card-title">Pokémon</h3>
+              <label for="" class="form-label">
+                <h5>
+                  Habilidades
+                </h5>
+              </label>
+              <p id="habilidades" class="card-text"></p>
+              <label for="" class="form-label">
+                <h5>
+                  Movimientos
+                </h5>
+              </label>
+              <p id="movimientos" class="card-text"></p>
+             
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+        <div >
+          <div class="col">
+            
+            
+          
+<!-- card-2 -->
+
+            <!-- style="max-width: 540px;" -->
+            <div id="card2" class="card mb-3" >
+              <div class="row g-1">
+                
+                </div>
+                <div class="col-md-12">
+                  <div class="card-body">
+                    <label for="" class="form-label">
+                      <h5>
+                        Estadísticas
+                      </h5>
+                    </label>
+                    <p
+                      id="estadisticas"
+                      class="card-text"
+                      style="
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-content: space-between;
+                        justify-content: space-between;
+                        text-align: end;
+                      "
+                    ></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+              
+
+          </div>
+          </div>
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- for (let i = 0; i < data.abilities.length; i++) {
+            
+            
+  console.log(data.abilities[i].ability.name)
+ setAbilities(data.abilities[i].ability.name) 
+  
+}
+ -->
+
+<!--  const cadenaMoves = data.moves.map((datos) => ' ' + datos.move.name)
+
+      movimientos.innerText = cadenaMoves 
+      
+       -->
